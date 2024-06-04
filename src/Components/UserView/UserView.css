@@ -1,0 +1,48 @@
+.viewBlock{
+    width: 100%;
+    height: 300px;  
+    display: flex;
+}
+.passwordsBlock{
+    width: 24%;
+    height: 295px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid #000000; 
+    border-right: 0;
+    padding: 5px;
+}
+.depositsBlock{
+    width: 24%;
+    height: 295px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid #000000; 
+    border-right: 0;
+    padding: 5px;
+}
+.loginHistory{
+    width: 24%;
+    height: 295px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid #000000; 
+    border-right: 0;
+    padding: 5px;
+}
+.puschasesBlock{
+    width: 24%;
+    height: 295px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid #000000; 
+    padding: 5px;
+}

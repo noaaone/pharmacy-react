@@ -1,0 +1,23 @@
+.manufacturerLink
+{
+    font-size: 16px;
+}
+.moreButton
+{
+    font-family: Montserrat Alternates;
+    padding: 10px 20px;
+    background-color: #f82553;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid rgb(175, 103, 103);
+    border-radius: 25px;
+}
+.moreButton:hover
+{
+    background-color: #75a4d3;
+    color: #fff;
+}
+.tableRow {
+    line-height: 50px;
+    text-align: left;
+}

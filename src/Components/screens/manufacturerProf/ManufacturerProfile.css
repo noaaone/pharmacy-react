@@ -1,0 +1,35 @@
+.headingProfile{
+    margin-top: 10px;
+    text-align: center;
+    color: #71a4f1;
+}
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .manufacturerAvatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .profile .info {
+    font-size: 18px;
+    color: #4e7ce0;
+  }
+
+  .profile .info p {
+    margin: 5px 0;
+  }
+  .Icon{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle; /* Выравнивание иконки по вертикали по центру */
+    margin-right: 5px;
+  }
+ 

@@ -1,0 +1,30 @@
+.helpBlock{
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    top: 50px;
+    width: 80%;
+    height: 719px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.helpHeading{
+    margin-top: 10px;
+    color: #71a4f1;
+    margin-bottom: 20px;
+}
+.textArea{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  
+}
+.helpText{
+    text-align: justify;
+    color: #f60a8b;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    text-indent: 10%;
+}

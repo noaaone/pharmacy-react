@@ -1,0 +1,11 @@
+.userButton{
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.buttonsBlockAdmin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

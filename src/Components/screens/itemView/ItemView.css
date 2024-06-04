@@ -1,0 +1,196 @@
+.mainView {
+  width: 100%;
+}
+
+.itemInfo {
+  top: 35px;
+  width: 100%;
+  height: 48vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: white;
+}
+
+.itemHeading {
+  margin-top: 15px;
+  text-align: center;
+  color: #71a4f1;
+  margin-bottom: 20px;
+}
+
+.manufacturerLink {
+  cursor: pointer;
+  color: red;
+  text-decoration: none;
+}
+
+.backButton {
+  margin: 10px;
+}
+
+.back {
+  background-color: #d0bbeb;
+  border: none;
+  border-radius: 4px;
+  color: #4fa0da;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 10px 20px;
+}
+
+.back:hover {
+  background-color: #4fa0da;
+  color: #fff;
+}
+
+.divButt {
+  text-align: center;
+}
+
+.subButton {
+
+  margin-top: 15px;
+  font-family: Montserrat Alternates;
+  padding: 15px 30px;
+  font-size: 17px;
+  background-color: #f82553;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid rgb(175, 103, 103);
+  border-radius: 25px;
+}
+
+.subButton:hover {
+  background-color: #75a4d3;
+  color: #fff;
+}
+
+.balance {
+  font-size: 16px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.page-content.blocked {
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  /* выше наложения */
+}
+
+.modal-content {
+  width: 700px;
+  height: 325px;
+  background-color: #ffffff;
+  border: 5px solid;
+  border-color: #5600f7;
+  text-align: center;
+  z-index: 10000;
+  /* самое высокое значение */
+
+}
+
+.closeHeading {
+  color: #5600f7;
+  font-family: Montserrat Alternates;
+}
+
+.closeText {
+  margin-bottom: 10px;
+  font-family: Montserrat Alternates;
+  color: #5600f7;
+}
+
+.closeButton {
+  margin-right: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #5600f7;
+  font-family: Montserrat Alternates;
+  border: 0px;
+  color: #fff;
+}
+
+.closeButton:hover {
+  color: #5600f7;
+  background-color: rgb(92, 125, 153);
+}
+
+.mainItemInfoBlock {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.mainItemInfoTextBlock {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputQuantity {
+  background-color: #fa3581;
+  color: #fff;
+  border: 1px solid #fa3581;
+  border-radius: 15px;
+  padding: 7px;
+}
+
+.inputQuantity::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.subscribeBlock {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.exaplePhoto{
+  width: 600px;
+  margin: 10px;
+}
+.TextOfSubscribeBlock {
+  color: #fa3581;
+  font-size: 25px;
+  font-family: Montserrat Alternates;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttonsBlock{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.analystBlock{
+  height: 150px;
+}

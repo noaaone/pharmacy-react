@@ -1,0 +1,29 @@
+.actionsBlock{
+    width: 100%;
+    height: 200px;  
+    display: flex;
+}
+.changePriceBlock{
+    width: 50%;
+    border: 1px solid #000;
+    border-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputPriceField{
+    padding: 3px;
+    margin: 10px;
+}
+.changeExpertBlock{
+    width: 50%;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addPriceViewInput{
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+}

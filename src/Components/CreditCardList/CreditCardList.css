@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'HALTER';
+    src: url('../../../public/fonts/HALTER__.ttf') format('truetype');
+  }
+  
+  .creditCard {
+    width: 350px;
+    height: 250px;
+    background-color: rgb(243, 109, 32);
+    border: 1px solid #a0a1f5;
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .chip {
+    width: 50px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+  }
+  
+  .cardNumber {
+    font-family: 'HALTER', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 239, 239);
+    margin-top: 110px;
+  }
+  
+  .cardFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .valid p {
+    font-size: 8px;
+    color: #fff;
+    margin: 0;
+    margin-right: 5px;
+  }
+  
+  .dateThru {
+    font-family: 'HALTER', sans-serif;
+    font-size: 14px;
+    color: #fff;
+  }
+  .name
+  {
+    margin-top: 20px;
+    margin-right: 150px;
+    font-family: 'HALTER', sans-serif;
+    font-size: 14px;
+    color: #fff;
+  }
+  .visa{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+  }
+  .cardsList{
+    display: flex;
+  }
+  .navigators
+  {
+    height: 262px;
+    border: 0;
+    display: flex;
+    align-items: center;
+  }
+  .previous{
+    width: 70px;
+    cursor: pointer;
+  }
+  .next{
+    width: 70px;
+    cursor: pointer;
+  }

@@ -1,0 +1,46 @@
+.editProfileBlock{
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    top: 50px;
+    width: 80%;
+    height: 719px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.editHeading
+{
+    color: #5ccbff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.editField
+{
+    background-color: #fa3581;
+    color: #fff;
+    border: 1px solid #fa3581;
+    border-radius: 15px;
+    padding: 7px;   
+    margin-bottom: 10px;
+}
+.editButton{
+    font-size: 18px;
+    background-color: #fa3581;
+    color: azure;
+    margin-bottom: 10px;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Montserrat Alternates;
+    margin-top: 10px;
+}
+.editButton:hover{
+    color: #fa3581;
+    background-color: azure;
+}
+.editField::placeholder{
+    color: #fff;
+}

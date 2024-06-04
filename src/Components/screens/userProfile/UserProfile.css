@@ -1,0 +1,50 @@
+.profileMenu{
+    height: 719px;
+    width: 20%;
+    background-color: #cfffed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.avatarBalance{
+    color: #fa3581;
+    margin-bottom: 30px;
+}
+.profileButt{
+    
+    background-color: #fa3581;
+    color: azure;
+    margin-bottom: 10px;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Montserrat Alternates;
+    display: flex;
+    align-items: center;
+}
+.profileButt:hover{
+    color: #fa3581;
+    background-color: azure;
+}
+.menuIcon{
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.textInMenu
+{
+    
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.profileBalance{
+    font-size: 24px;
+}

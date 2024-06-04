@@ -1,0 +1,72 @@
+.addCardBlock{
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    top: 50px;
+    width: 80%;
+    height: 719px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardHeading{
+    margin-top: 10px;
+    color: #71a4f1;
+    margin-bottom: 20px;
+}
+.addButt{
+    font-size: 18px;
+    background-color: #fa3581;
+    color: azure;
+    margin-bottom: 10px;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: Montserrat Alternates;
+    margin-top: 10px
+}
+.addButt:hover{
+    color: #fa3581;
+    background-color: azure;
+}
+.inputNumberCard{
+    background-color: #fa3581;
+    color: #fff;
+    border: 1px solid #fa3581;
+    border-radius: 15px;
+    padding: 7px;
+    margin-bottom: 10px;
+    
+}
+.validTrue{
+    background-color: #fa3581;
+    color: #fff;
+    border: 1px solid #fa3581;
+    border-radius: 15px;
+    padding: 7px;   
+    margin-bottom: 10px;
+}
+.inputNameOfOwner{
+    background-color: #fa3581;
+    color: #fff;
+    border: 1px solid #fa3581;
+    border-radius: 15px;
+    padding: 7px;   
+    margin-right: 50px;
+}
+.cvv{
+    background-color: #fa3581;
+    color: #fff;
+    border: 1px solid #fa3581;
+    border-radius: 15px;
+    padding: 7px;   
+    margin-bottom: 10px;
+}
+.inputNumberCard::placeholder,
+.validTrue::placeholder,
+.inputNameOfOwner::placeholder,
+.cvv::placeholder {
+  color: #ffffff; /* Цвет плейсхолдера */
+}

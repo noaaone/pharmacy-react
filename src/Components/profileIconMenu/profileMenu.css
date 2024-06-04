@@ -1,0 +1,26 @@
+.iconMenu{
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    top :55px;
+    right: 25px;
+    z-index: 9999;
+}
+.linkProfileButton{
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    border: 2px solid;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.butText{
+    vertical-align: middle
+}
+.linkProfileButton:hover{
+    background-color: #90c9f1;
+}
+.exitIcon{
+    height: 20px;
+    vertical-align: middle
+    ;}

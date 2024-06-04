@@ -1,0 +1,45 @@
+.itemBlock{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.manHeading{
+    margin-bottom: 10px;
+    }
+.item-table {
+    width: 100%;
+     border-collapse: collapse;
+    }
+        
+.item-table th,
+.item-table td {
+     border-bottom: 1px solid #ddd;
+     padding: 8px;
+    }
+.item-table th 
+    {
+    background: #f5f5f5;
+    text-align: left;
+     }
+     .addItem{
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+     }
+.addItemInput{
+    width: 15%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.addManufacturerIdInput{
+    width: 100%;
+    padding: 3px;
+    height: 30px;
+    margin-right: 5px;
+}
+.idFields{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
